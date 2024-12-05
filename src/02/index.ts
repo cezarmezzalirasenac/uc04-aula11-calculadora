@@ -17,7 +17,7 @@ async function main() {
   do {
     console.log(menu);
     operacao = parseInt(await scanner.question("Informe a operação: "));
-
+    
     switch (operacao) {
       case 0:
         break;
